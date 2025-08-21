@@ -1,0 +1,31 @@
+entity_id,entity_first_name,entity_middle_name,entity_last_name,entity_dob,is_master,address,entity_gender
+1,John,Michael,Smith,1985-03-15,true,"123 Main Street, New York, NY 10001",Male
+2,Sarah,,Johnson,12/08/1992,false,"456 Oak Avenue, Los Angeles, CA 90210",Female
+3,Mike,James,Brown,1978-11-22,1,"789 Pine Road, Chicago, IL 60601",M
+4,Lisa,Marie,Davis,05-14-1990,0,"321 Elm Street, Houston, TX 77001",F
+5,"Robert Jr.",Thomas,Wilson,1983/07/09,yes,"654 Maple Drive, Phoenix, AZ 85001",male
+6,,,Garcia,1995.02.28,no,"987 Cedar Lane, Philadelphia, PA 19101",
+7,Jessica,Ann,Martinez,invalid_date,master,"147 Birch Court, San Antonio, TX 78201",Female
+8,David#$%,Robert,Anderson,1987-13-45,false,"258 Spruce Way, San Diego, CA 92101",Other
+9,"",Lynn,Taylor,1991-06-18,,"369 Willow Street, Dallas, TX 75201",Non-binary
+10,Amanda,Rose,Thomas,2025-01-01,primary,"741 Aspen Boulevard, San Jose, CA 95101",prefer not to say
+11,Christopher,Michael,"O'Connor",1989-04-12,true,"852 Redwood Avenue, Austin, TX 73301",Male
+12,Maria,Elena,Rodriguez,15/03/1993,false,"963 Sequoia Drive, Jacksonville, FL 32201",female
+13,-5,Paul,White,1986-08-30,false,"159 Hickory Lane, Fort Worth, TX 76101",Male
+14,Jennifer,,,1984-02-14,true,"753 Cottonwood Street, Columbus, OH 43201",F
+15,abc123,Ray,Lewis,1990-07-25,false,"486 Sycamore Road, Charlotte, NC 28201",M
+16,Kevin,Scott,Hall,1988-10-17,true,"This is a very long address that exceeds the normal database field length and should be truncated by the import process to ensure it fits within the 512 character limit imposed by the database schema. This address continues with even more text to demonstrate the truncation functionality that should be implemented in the data sanitization process. Additional characters here: 1234567890abcdefghijklmnopqrstuvwxyz",Male
+17,Nancy,Grace,Allen,19/12/1982,false,"357 Dogwood Circle, San Francisco, CA 94101",Female
+18,Steven,Paul,Young,1994-15-08,true,"951 Magnolia Terrace, Indianapolis, IN 46201",ThisIsAVeryLongGenderFieldThatShouldBeTruncated
+19,Michelle,Dawn,Hernandez,1987-06-03,false,"741 Poplar Street, Seattle, WA 98101",Other
+20,Thomas,Edward,King,1991/13/40,true,"852 Juniper Avenue, Denver, CO 80201",unknown
+21,"Robert Smith-Jones",William,Wright,dd/mm/yyyy,false,"963 Palm Drive, Washington, DC 20001",Male
+22,Patricia,Joan,Lopez,1985-00-15,true,"147 Fir Street, Boston, MA 02101",Female
+23,"",Michael,Hill,1992-02-29,false,"258 Cypress Lane, El Paso, TX 79901",
+24,Daniel,Anthony,Scott,1989-04-31,true,"369 Bamboo Court, Nashville, TN 37201",M
+25,Linda,Carol,Green,1986-12-32,false,"741 Rose Way, Oklahoma City, OK 73101",F
+26,James*&^%,Robert,Adams,1993-06-15,true,"852 Tulip Boulevard, Louisville, KY 40201",Male
+27,Barbara,Susan,Baker,1990-02-30,false,"963 Lily Drive, Portland, OR 97201",Female
+28,William,Charles,Gonzalez,1988-11-00,true,"159 Daisy Street, Las Vegas, NV 89101",Other
+29,Elizabeth,Mary,Nelson,1987-14-25,false,"753 Violet Avenue, Albuquerque, NM 87101",prefer not to say
+30,Richard,Joseph,Carter,1991-08-32,true,"486 Iris Lane, Tucson, AZ 85701",nonbinary
